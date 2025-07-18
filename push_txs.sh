@@ -6,6 +6,11 @@ set -e  # 出错即终止
 TAR_FILE="public.tar.gz"
 SOURCE_DIR="public"
 
+# 生成 public 目录
+echo "生成 $SOURCE_DIR ..."
+hexo generate
+
+
 # 压缩 public 目录
 echo "压缩 $SOURCE_DIR 为 $TAR_FILE ..."
 tar -czvf "$TAR_FILE" "$SOURCE_DIR"
