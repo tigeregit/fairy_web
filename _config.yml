@@ -3,13 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
+title: 个人日常随笔
+subtitle: '妖精的时光小屋'
 description: ''
 keywords:
-author: John Doe
-language: en
-timezone: ''
+  - 数学
+  - 编程
+  - 阅读
+author: 妖精
+language: zh-CN
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
